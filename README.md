@@ -1,0 +1,2 @@
+# NSubstituteTestCaseProject
+NSubstitute TestCases
