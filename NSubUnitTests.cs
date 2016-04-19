@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
-using NSubstituteTestCase.Code;
+using NSubstituteTestCases.Code;
 
-namespace NSubstituteTestCase
+namespace NSubstituteTestCases
 {
     [TestClass]
     public class NSubUnitTests

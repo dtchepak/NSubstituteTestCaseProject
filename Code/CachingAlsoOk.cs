@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NSubstituteTestCase.Code
+namespace NSubstituteTestCases.Code
 {
     public class CompositeKeyAlsoOk
     {

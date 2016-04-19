@@ -1,4 +1,4 @@
-﻿namespace NSubstituteTestCase.Code
+﻿namespace NSubstituteTestCases.Code
 {
     public class Constants
     {
