@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace NSubstituteTestCase
+namespace NSubstituteTestCase.Code
 {
     public class CompositeKeyFail : IEquatable<CompositeKeyFail>
     {

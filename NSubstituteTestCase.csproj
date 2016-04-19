@@ -25,7 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -55,15 +55,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CachingAlsoOk.cs" />
-    <Compile Include="CachingFail.cs" />
-    <Compile Include="CachingOk.cs" />
-    <Compile Include="Constants.cs" />
+    <Compile Include="Code\CachingAlsoOk.cs" />
+    <Compile Include="Code\CachingFail.cs" />
+    <Compile Include="Code\CachingOk.cs" />
+    <Compile Include="Code\Constants.cs" />
     <Compile Include="NSubUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

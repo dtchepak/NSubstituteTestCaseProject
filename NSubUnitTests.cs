@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
+using NSubstituteTestCase.Code;
 
 namespace NSubstituteTestCase
 {
